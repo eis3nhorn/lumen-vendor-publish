@@ -1,4 +1,4 @@
-# `vendor:publish` for Lumen framework
+# `vendor:publish` for Lumen framework 6
 
 [![Latest Stable Version](https://poser.pugx.org/laravelista/lumen-vendor-publish/v/stable)](https://packagist.org/packages/laravelista/lumen-vendor-publish) [![Total Downloads](https://poser.pugx.org/laravelista/lumen-vendor-publish/downloads)](https://packagist.org/packages/laravelista/lumen-vendor-publish) [![Latest Unstable Version](https://poser.pugx.org/laravelista/lumen-vendor-publish/v/unstable)](https://packagist.org/packages/laravelista/lumen-vendor-publish) [![License](https://poser.pugx.org/laravelista/lumen-vendor-publish/license)](https://packagist.org/packages/laravelista/lumen-vendor-publish)
 
@@ -9,7 +9,7 @@ This package contains a single command that enables you to publish a package con
 ## Installation
 
 ```
-composer require laravelista/lumen-vendor-publish
+composer require eis3nhorn/lumen-vendor-publish
 ```
 
 ## Usage
@@ -18,6 +18,6 @@ To be able to use it you have to add it to your `app/Console/Kernel.php` file:
 
 ```
 protected $commands = [
-    \Laravelista\LumenVendorPublish\VendorPublishCommand::class
+    \Eis3nhorn\LumenVendorPublish\VendorPublishCommand::class
 ];
 ```
