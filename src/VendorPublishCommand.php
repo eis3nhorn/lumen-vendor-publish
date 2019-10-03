@@ -1,6 +1,6 @@
 <?php
 
-namespace Eis3nhorn\LumenVendorPublish;
+namespace eis3nhorn\LumenVendorPublish;
 
 use Illuminate\Console\Command;
 use Illuminate\Filesystem\Filesystem;
